@@ -19,7 +19,9 @@
     ],
     "types": [
       "vite/client",
-      "vike-react"
+      "vike-react",
+      "@vitest/browser/providers/playwright",
+      "vitest/globals"
     ],
     "jsx": "preserve",
     "jsxImportSource": "react",
