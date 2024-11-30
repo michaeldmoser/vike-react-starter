@@ -1,5 +1,4 @@
-import React from "react";
-import { Counter } from "./Counter.js";
+import { Counter } from "@/features/counter/Counter";
 
 export default function Page() {
   return (
