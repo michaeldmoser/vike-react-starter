@@ -1,4 +1,4 @@
-import config from "../vite.config";
+import config from '../vite.config';
 
 /*
  * The storybook @storybook/react-vite framework sets the vite config `base` option to `./` by default.
