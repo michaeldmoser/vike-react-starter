@@ -10,7 +10,8 @@
     "test:integration": "vitest --project integration",
     "test:storybook": "vitest --project storybook",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "playwright install"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.2",
