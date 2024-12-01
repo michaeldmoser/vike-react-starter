@@ -24,7 +24,7 @@ export const data = async () => {
   return movies;
 };
 
-function minimize(movies: MovieDetails[]): Movie[] {
+function minimize(movies: MovieDetails[]) {
   return movies.map((movie) => {
     const { title, release_date, id } = movie;
     return { title, release_date, id };
